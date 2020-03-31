@@ -1,0 +1,58 @@
+html,
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: #ffffff;
+}
+
+.App {
+  max-width: 30rem;
+  margin: 10px auto;
+}
+
+.Movies {
+  h2 {
+    color: #f5c518;
+  }
+}
+
+.Movie {
+  border: 2px solid #f5c518;
+  padding: 10px;
+  margin: 10px 0;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  .Movie-actions {
+    label {
+      color: #f5c518;
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+  }
+}
+
+.NewMovie {
+  display: flex;
+
+  input {
+    padding: 0.75em;
+    width: 100%;
+  }
+
+  button {
+    color: black;
+    background-color: #f5c518;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color:#deb213;
+  }
+}
+
