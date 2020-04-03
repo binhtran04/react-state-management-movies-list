@@ -1,10 +1,10 @@
 import React from 'react';
-import { Movies }  from './Movies';
+import { Movies } from './Movies';
+import { MoviesProvider } from './MoviesContext';
+import { NewMovie } from './NewMovie';
 import './App.scss';
-import {MoviesProvider} from './MoviesContext';
-import {NewMovie} from './NewMovie';
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
       <MoviesProvider>
@@ -13,6 +13,4 @@ function App() {
       </MoviesProvider>
     </div>
   );
-}
-
-export default App;
+};
